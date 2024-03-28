@@ -1,0 +1,14 @@
+//global
+@import 'global';
+@import 'mixins';
+
+//partials
+@import 'navbar';
+@import 'footer';
+
+//main
+@import 'hero';
+@import 'about';
+@import 'skills';
+@import 'work';
+@import 'contact';

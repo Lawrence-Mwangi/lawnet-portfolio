@@ -1,0 +1,40 @@
+.skills_container{
+    padding: 4em 0;
+    .skills_content{
+        @include grid(3);
+        padding:0.9em 0;
+        gap:2em;
+
+        .skills{
+            p{
+                font-size: 1.2em;
+                font-weight: bold;
+                padding:0.9em 0;
+            }
+            ul{
+                list-style: none;
+
+                li{
+                    border: 1px solid $secondary-color;
+                    padding:0.5em 0.9em;
+                    margin: 0.9em 0;
+                    border-radius: 16px;
+
+                    span{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (width <=726px) {
+    .skills_container{
+        padding:4.5em 5%;
+        .skills_content{
+            gap:1em;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+$name-animation-duration: 3s;
+$name-animation-delay: 1s; 
+
+.hero_container {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url('../images/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+
+    .hero_content{
+        position: absolute;
+        top:40%;
+        left:35%;
+
+        h1{
+            font-size: 5em;
+        }
+
+        .name {
+            overflow: hidden;
+            white-space: nowrap; 
+            text-shadow: 2px 2px 2px rgb(220, 19, 108);
+            width: 0;
+            animation: typewriter $name-animation-duration  linear $name-animation-delay infinite alternate; 
+          
+            
+            @keyframes typewriter {
+                to{
+                    width: 100%; 
+                } 
+            }
+        }
+        p{
+            font-size: 1.8em;
+            font-weight: 450;
+            text-align: center;
+        }
+        span{
+            font-size: 1.6em;
+        }
+    }
+}
+
+@media screen and (width <=726px) {
+    .hero_container{
+        background-position: center;
+        height: 55vh;
+
+        .hero_content{
+            top:25%;
+            left:15%;
+            h1{
+                font-size: 2em;
+            }
+            p{
+                text-align: left;
+                padding: 0.3em 0;
+            }
+            span{
+                font-size: 1em;
+            }
+        }
+    }
+}

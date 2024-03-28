@@ -1,0 +1,35 @@
+$primary-color:#050609;
+$secondary-color:#FFFDFD;
+$accent-color:#DC136C;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background: $primary-color;
+    color:$secondary-color;
+}
+
+.main_container{
+    padding:0 3%;
+    margin:0 0 3em;
+}
+
+.btn{
+    button{
+        padding:0.5em 0.9em;
+        border: none;
+        border-radius:8px;
+    }
+}
+
+.title{
+    .brackets{
+        color: $accent-color;
+        font-size: 1.2em;
+    }  
+}
