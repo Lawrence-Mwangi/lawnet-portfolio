@@ -17,32 +17,37 @@
             }
         }
         .contact_form{
-            
-        .input_group{
-            padding:0.7em 0;
-            input,textarea{
-                padding:0.6em 0.9em;
-                border-radius: 12px;
-                width:100%;
-                font-size: 1em;
+            .success-message{
+                color: green;
             }
-            .name{
-                display: flex;
-                gap:0.9em;
+            .error-message{
+                color:red;
+            }     
+            .input_group{
+                padding:0.7em 0;
+                input,textarea{
+                    padding:0.6em 0.9em;
+                    border-radius: 12px;
+                    width:100%;
+                    font-size: 1em;
+                }
+                .name{
+                    display: flex;
+                    gap:0.9em;
+                }
             }
-        }
-        button{
-            padding:0.6em 1.2em;
-            color:$secondary-color;
-            background:#d2691e;
-            font-size: 1.1em;
-            border:none;
-            border-radius:12px;
-            transition: box-shadow 0.3s ease-in-out;
-        }
-        button:hover{
-            box-shadow: 0 0 20px rgba(180, 54, 73, 0.9);
-        }
+            button{
+                padding:0.6em 1.2em;
+                color:$secondary-color;
+                background:#d2691e;
+                font-size: 1.1em;
+                border:none;
+                border-radius:12px;
+                transition: box-shadow 0.3s ease-in-out;
+            }
+            button:hover{
+                box-shadow: 0 0 20px rgba(180, 54, 73, 0.9);
+            }
         }
     }
 }

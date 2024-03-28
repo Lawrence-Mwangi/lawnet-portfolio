@@ -1,4 +1,59 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+import Emailjs from 'emailjs-com';
+
+const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+
+const first_name = ref('');
+const last_name = ref('');
+const email = ref('');
+const message = ref('');
+
+const emailSent = ref(false);
+const errorMessage = ref('');
+const successMessage = ref('');
+const clearFormAndMessage = () => {
+  [first_name, last_name, email, message].forEach((ref) => (ref.value = ''));
+
+  // Delay clearing the form and success message for a few seconds
+  setTimeout(() => {
+    successMessage.value = '';
+    emailSent.value = false;
+  }, 3000); 
+};
+
+const showMessage = (messageRef, duration) => {
+  setTimeout(() => (messageRef.value = ''), duration);
+};
+
+const sendEmail = async () => {
+  const templateParams = {
+    from_first_name: first_name.value,
+    from_last_name: last_name.value,
+    from_email: email.value,
+    message: message.value,
+  };
+
+  try {
+    const response = await Emailjs.send(serviceId, templateId, templateParams, userId);
+    console.log('Email sent successfully:', response);
+    emailSent.value = true;
+    successMessage.value = 'Email sent successfully!';
+    console.log('Success message set:', successMessage.value);
+    showMessage(successMessage, 3000);
+
+    setTimeout(clearFormAndMessage, 3000);
+  } catch (error) {
+    console.error('Email sending failed:', error);
+    errorMessage.value = 'Email sending failed. Please try again.';
+    showMessage(errorMessage, 3000);
+  }
+};
+
+Emailjs.init(userId);
+</script>
 
 <template>
     <div class="contact_container">
@@ -9,7 +64,9 @@
                 <p><span class="icon"><img src="../assets/images/phone.png" alt="gmail icon" width="25px" height="25px"></span>+254 799 509 242</p>
             </div>
             <div class="contact_form">
-                <form action="#" method="post">
+              <div v-if="emailSent && successMessage" class="success-message">{{ successMessage }}</div>
+                <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
+                <form @submit.prevent="sendEmail">
                     <div class="input_group">
                         <div class="name">
                             <input type="text" name="first_name" id="first_name" v-model="first_name" placeholder="Enter first name" required>

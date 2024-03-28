@@ -31,7 +31,7 @@
         </div>
         <hr>
         <div class="copyrigth">
-            <p>&copy;copyrigth 2023 |Lawrence Mwangi |All Rights Reserved</p>
+            <p>&copy; 2023 |Lawrence Mwangi |All Rights Reserved</p>
         </div>
     </div>
 </template>

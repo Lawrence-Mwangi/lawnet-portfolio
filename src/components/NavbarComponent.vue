@@ -24,6 +24,7 @@ const closeNav = () => {
                 <li><a href="#About"  @click="closeNav" >About</a></li>
                 <li><a href="#Skills"  @click="closeNav" >Skills</a></li>
                 <li><a href="#Work"  @click="closeNav" >Work</a></li>
+                <li><a href="#Contact"  @click="closeNav" >Contact</a></li>
             </ul>
         </div>
         <div class="burger" @click="toggleNav" :class="{ 'active': isNavOpen }">
