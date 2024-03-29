@@ -24,7 +24,7 @@
                 <a href="https://www.linkedin.com/in/lawrencemwangi/" target="_blank">
                     <img src="../assets/images/linkedin.png" alt="linkedin icon">
                 </a>
-                <a href="http://wa.me/254799509242?text='Hello Lawrence'" target="_blank" rel="noopener noreferrer">
+                <a href="http://wa.me/254799509242?text='Hello Lawnet developers'" target="_blank" rel="noopener noreferrer">
                     <img src="../assets/images/whatsapp.png" alt="whatapp icon">
                 </a>
             </div>
