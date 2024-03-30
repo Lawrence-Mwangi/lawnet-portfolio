@@ -9,6 +9,10 @@ $accent-color:#DC136C;
     font-family:'Times New Roman', Times, serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: $primary-color;
     color:$secondary-color;
