@@ -30,10 +30,10 @@
             </div>  
 
              <div class="work_item">
-                <h2>Melodymix studio</h2>
-                <p>It's a studio website with good features and design created using <span>(VueJs)</span></p>
+                <h2>Lawnet Tours</h2>
+                <p>It's a tour and travel website with good features and design created using <span>(VueJs)</span></p>
                 <div class="link">
-                    <a href="https://melodymixstudio.netlify.app" target="_blanck" >View</a>
+                    <a href="https://lawnettour.netlify.app" target="_blanck" >View</a>
                 </div>
             </div>
         </div>
