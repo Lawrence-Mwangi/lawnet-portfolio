@@ -33,7 +33,7 @@
                 <h2>Lawnet Tours</h2>
                 <p>It's a tour and travel website with good features and design created using <span>(VueJs)</span></p>
                 <div class="link">
-                    <a href="https://lawnettour.netlify.app" target="_blanck" >View</a>
+                    <a href="https://lawnettours.netlify.app" target="_blanck" >View</a>
                 </div>
             </div>
         </div>
