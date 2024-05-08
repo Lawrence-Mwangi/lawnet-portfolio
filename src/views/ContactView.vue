@@ -60,7 +60,7 @@ Emailjs.init(userId);
         <h1 class="title"><span class="brackets">&lt; Contact us &gt;</span></h1>
         <div class="contact_content">
             <div class="contact_infor">
-                <p><span class=" "><img src="../assets/images/gmail.png" alt="gmail icon" width="25px" height="25px"></span> mwangilawrence661@gmail.com</p>
+                <p><span class="icon"><img src="../assets/images/gmail.png" alt="gmail icon" width="25px" height="25px"></span> mwangilawrence661@gmail.com</p>
                 <p><span class="icon"><img src="../assets/images/phone.png" alt="gmail icon" width="25px" height="25px"></span>+254 799 509 242</p>
             </div>
             <div class="contact_form">
