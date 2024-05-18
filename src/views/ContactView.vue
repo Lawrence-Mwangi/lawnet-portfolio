@@ -38,10 +38,8 @@ const sendEmail = async () => {
 
   try {
     const response = await Emailjs.send(serviceId, templateId, templateParams, userId);
-    console.log('Email sent successfully:', response);
     emailSent.value = true;
     successMessage.value = 'Email sent successfully!';
-    console.log('Success message set:', successMessage.value);
     showMessage(successMessage, 3000);
 
     setTimeout(clearFormAndMessage, 3000);
