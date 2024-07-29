@@ -59,9 +59,9 @@ Emailjs.init(userId);
         <div class="contact_content">
             <div class="contact_infor">
               <p><span class="icon"><img src="../assets/images/gmail.png" alt="gmail icon" width="25px" height="25px"></span> mwangilawrence661@gmail.com</p>
-              <p><span class="icon"><img src="../assets/images/phone.png" alt="gmail icon" width="25px" height="25px"></span> <a href="tel:+25499509242">+254 799 509 242</a></p>
+              <p><span class="icon"><img src="../assets/images/phone.png" alt="gmail icon" width="25px" height="25px"></span> <a href="tel:+254799509242">+254 799 509 242</a></p>
             </div>
-            
+
             <div class="contact_form">
               <div v-if="emailSent && successMessage" class="success-message">{{ successMessage }}</div>
                 <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
