@@ -5,7 +5,7 @@
         <h1 class="title"><span class="brackets">&lt; My Work &gt;</span></h1>
         
         <div class="work_item">
-            <h2>Melodymix studio</h2>
+            <h2>Lawbert Shoes</h2>
             <p>It's a website for selling shoes which is created using <span>(VueJs)</span></p>
             <div class="link">
                 <a href="https://lawbertshoes.netlify.app" target="_blanck" >View</a>
@@ -37,9 +37,6 @@
                     <a href="https://lawnetestate.netlify.app" target="_blanck" >View </a>
                 </div>
             </div>
-
-
         </div>
-
     </div>
 </template>
