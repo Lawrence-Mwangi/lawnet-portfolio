@@ -27,11 +27,17 @@
                 <a href="http://wa.me/254799509242?text='Hello Lawnet developers'" target="_blank" rel="noopener noreferrer">
                     <img src="../assets/images/whatsapp.png" alt="whatapp icon">
                 </a>
+                <a href="https://www.youtube.com/@Lawnetsolutions-f9r" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/images/youtube.png" alt="youtube icon">
+                </a>
+               
+
+
             </div>
         </div>
         <hr>
         <div class="copyrigth">
-            <p>&copy; 2023 |Lawrence Mwangi |All Rights Reserved</p>
+            <p>&copy; 2023 | Lawrence Mwangi | All Rights Reserved</p>
         </div>
     </div>
 </template>
