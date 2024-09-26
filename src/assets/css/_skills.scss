@@ -1,7 +1,7 @@
 .skills_container{
     padding: 4em 0;
     .skills_content{
-        @include grid(3);
+        @include grid(4);
         padding:0.9em 0;
         gap:2em;
 
@@ -11,6 +11,7 @@
                 font-weight: bold;
                 padding:0.9em 0;
             }
+            
             ul{
                 list-style: none;
 
@@ -19,6 +20,7 @@
                     padding:0.5em 0.9em;
                     margin: 0.9em 0;
                     border-radius: 16px;
+                    font-size: 1.1em;
 
                     span{
                         font-weight: bold;

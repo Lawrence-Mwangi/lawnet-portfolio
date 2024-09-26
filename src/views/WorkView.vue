@@ -7,7 +7,7 @@
         <div class="work_content">
             <div class="work_item">
                 <h2>Lawbert Shoes</h2>
-                <p>It's a website for selling shoes which is created using <span>(VueJs)</span></p>
+                <p>It's a website for selling and showcasing the shoes at lawbert shoes have in they store.</p>
                 <div class="link">
                     <a href="https://lawbertshoes.netlify.app" target="_blanck" >View</a>
                 </div>
@@ -15,7 +15,7 @@
 
             <div class="work_item">
                 <h2>Wayquad VR</h2>
-                <p>Virtual Reality website for best virutal exprience created using <span>(VueJs)</span></p>
+                <p>Virtual Reality website for showcasing the best games that one can play to entertain yourself.</p>
                 <div class="link">
                     <a href="https://wayquadvr.netlify.app"  target="_blanck">View</a>
                 </div>
@@ -23,7 +23,7 @@
             
             <div class="work_item">
                <h2>Lawnet Tours</h2>
-               <p>It's a tour and travel website with good features and design created using <span>(VueJs)</span></p>
+               <p>A website that help you plan and visit the best places & exprience the most relaxing enjoyment.</p>
                <div class="link">
                    <a href="https://lawnettours.netlify.app" target="_blanck" >View</a>
                </div>
@@ -32,7 +32,7 @@
 
             <div class="work_item">
                 <h2>LawnetEstate</h2>
-                <p>Realestate websitefor information of a lawnetEsated created using <span>(VueJs)</span></p>
+                <p>A website that help you get the best service for showcasing the best house and lands around.</p>
                 <div class="link">
                     <a href="https://lawnetestate.netlify.app" target="_blanck" >View </a>
                 </div>

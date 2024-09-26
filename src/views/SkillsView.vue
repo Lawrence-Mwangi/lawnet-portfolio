@@ -26,6 +26,14 @@
                     <li>PHP <span>( Laravel )</span></li>
                 </ul>
             </div>
+
+            <div class="skills">
+                <p>Networking</p>
+                <ul>
+                    <li>Internet extension<span>( Wi-Fi extension )</span></li>
+                    <li>Internet Configration</li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
