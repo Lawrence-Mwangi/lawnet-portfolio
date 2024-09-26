@@ -20,7 +20,6 @@ const closeNav = () => {
         </div>
         <div class="nav_links" :class="{ 'active': isNavOpen }">
             <ul>
-                <li><a href="#Hero"  @click="closeNav" >Home</a></li>
                 <li><a href="#About"  @click="closeNav" >About</a></li>
                 <li><a href="#Skills"  @click="closeNav" >Skills</a></li>
                 <li><a href="#Work"  @click="closeNav" >Work</a></li>
