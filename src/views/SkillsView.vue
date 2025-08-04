@@ -24,6 +24,7 @@
                 <p>Backend</p>
                 <ul>
                     <li>PHP <span>( Laravel )</span></li>
+                    <li>Python <span>( Django )</span></li>
                 </ul>
             </div>
 

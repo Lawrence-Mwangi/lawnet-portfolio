@@ -16,7 +16,7 @@ const closeNav = () => {
     <div class="nav_container">
         <div class="logo">
             <img src="../assets/images/dell.jpg" width="40px" height="40px" alt="logo">
-            <a href="#Hero" @click="closeNav">Lawrence</a>
+            <a href="#Hero" @click="closeNav">Developer</a>
         </div>
         <div class="nav_links" :class="{ 'active': isNavOpen }">
             <ul>

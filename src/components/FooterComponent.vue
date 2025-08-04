@@ -5,7 +5,7 @@
         <div class="footer_content">
             <div class="footer_infor">
                 <p> <span>Lawnet</span> Dev</p>
-                <p>UI/UX developer for any service feel free to interact with me or you can call</p>
+                <p>Software Developer for any service feel free to interact with me or you can call</p>
             </div>
             <div class="footer_links">
                 <h3>Links</h3>

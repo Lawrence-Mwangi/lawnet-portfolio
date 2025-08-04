@@ -5,7 +5,7 @@
         <div class="hero_content">
            <p>Hi! Am</p>
            <h1 class="name">Lawrence</h1>
-          <p class="title">I'm a <span>UI/UX Developer</span></p>
+          <p class="title">I'm a <span> Software Developer</span></p>
         </div>
     </div>
 </template>
